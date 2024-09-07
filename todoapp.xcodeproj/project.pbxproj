@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A62CC9A62C8C788E0074F854 /* GoogleService-Info kopyası.plist in Resources */ = {isa = PBXBuildFile; fileRef = A62CC9A52C8C788E0074F854 /* GoogleService-Info kopyası.plist */; };
 		A639345A2C821628008179D1 /* todoappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63934592C821628008179D1 /* todoappApp.swift */; };
 		A639345C2C821628008179D1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A639345B2C821628008179D1 /* MainView.swift */; };
 		A639345E2C82162A008179D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A639345D2C82162A008179D1 /* Assets.xcassets */; };
@@ -35,7 +36,6 @@
 		A657A4FB2C88F690007EF1C6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A657A4FA2C88F690007EF1C6 /* FirebaseStorage */; };
 		A657A4FD2C88F690007EF1C6 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A657A4FC2C88F690007EF1C6 /* FirebaseStorageCombine-Community */; };
 		A657A4FF2C88F690007EF1C6 /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = A657A4FE2C88F690007EF1C6 /* FirebaseVertexAI-Preview */; };
-		A6A64E012C83007B001969C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6A64E002C83007B001969C9 /* GoogleService-Info.plist */; };
 		A6A64E072C8313AA001969C9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A64E062C8313AA001969C9 /* ProfileView.swift */; };
 		A6A64E092C8313C5001969C9 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A64E082C8313C5001969C9 /* ToDoListView.swift */; };
 		A6A64E0B2C8313E8001969C9 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A64E0A2C8313E8001969C9 /* NewItemView.swift */; };
@@ -56,13 +56,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A62CC9A52C8C788E0074F854 /* GoogleService-Info kopyası.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info kopyası.plist"; sourceTree = "<group>"; };
 		A63934562C821628008179D1 /* todoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A63934592C821628008179D1 /* todoappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoappApp.swift; sourceTree = "<group>"; };
 		A639345B2C821628008179D1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A639345D2C82162A008179D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A63934602C82162A008179D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A657A4CF2C84B8CD007EF1C6 /* Extentsions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentsions.swift; sourceTree = "<group>"; };
-		A6A64E002C83007B001969C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A6A64E062C8313AA001969C9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		A6A64E082C8313C5001969C9 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		A6A64E0A2C8313E8001969C9 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
@@ -140,6 +140,7 @@
 				A6A64E032C830215001969C9 /* Models */,
 				A6A64E022C83020C001969C9 /* Views */,
 				A639345F2C82162A008179D1 /* Preview Content */,
+				A62CC9A52C8C788E0074F854 /* GoogleService-Info kopyası.plist */,
 			);
 			path = todoapp;
 			sourceTree = "<group>";
@@ -196,7 +197,6 @@
 			children = (
 				A63934592C821628008179D1 /* todoappApp.swift */,
 				A639345D2C82162A008179D1 /* Assets.xcassets */,
-				A6A64E002C83007B001969C9 /* GoogleService-Info.plist */,
 				A657A4CF2C84B8CD007EF1C6 /* Extentsions.swift */,
 			);
 			path = Others;
@@ -290,7 +290,7 @@
 			files = (
 				A63934612C82162A008179D1 /* Preview Assets.xcassets in Resources */,
 				A639345E2C82162A008179D1 /* Assets.xcassets in Resources */,
-				A6A64E012C83007B001969C9 /* GoogleService-Info.plist in Resources */,
+				A62CC9A62C8C788E0074F854 /* GoogleService-Info kopyası.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
